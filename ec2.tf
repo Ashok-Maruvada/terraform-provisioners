@@ -33,3 +33,9 @@ resource "aws_instance" "db" {
     ]
   }
 }
+
+
+#Local-exec
+   # Runs commands or scripts on the machine where Terraform is running, such as a local development machine or a CI/CD server. This is useful for local tasks and doesn't require connecting to the newly created resource.
+#Remote-exec
+    # Runs commands or scripts on the remote resource being provisioned, such as an EC2 instance, after the resource is created. This is useful for remote resource configurations and can be used to bootstrap into a cluster or run a configuration management tool.
